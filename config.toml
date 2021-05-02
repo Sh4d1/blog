@@ -36,7 +36,7 @@ disableHugoGeneratorInject = false
   name = "Patrik Cyvoct"
 
 [params]
-  gitUrl = "https://github.com/Sh4d1/ptrk.io/commit/"
+  gitUrl = "https://github.com/Sh4d1/blog/commit/"
 
   dateform        = "Jan 2, 2006"
   dateformShort   = "Jan 2"

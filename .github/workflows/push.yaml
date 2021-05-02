@@ -27,4 +27,4 @@ jobs:
           push: true
           tags: |
             ghcr.io/sh4d1/blog:latest
-            ghcr.io/sh4d1/blog:${GITHUB_SHA}
+            ghcr.io/sh4d1/blog:${{ github.sha }}
