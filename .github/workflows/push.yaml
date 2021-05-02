@@ -26,5 +26,5 @@ jobs:
           platforms: linux/amd64
           push: true
           tags: |
-            ghcr.io/sh4d1/blog:latest
-            ghcr.io/sh4d1/blog:${{ github.sha }}
+            ghcr.io/Sh4d1/blog:latest
+            ghcr.io/Sh4d1/blog:${{ github.sha }}
