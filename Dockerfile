@@ -15,7 +15,7 @@ RUN /hugo --minify --enableGitInfo
 FROM nginx:1.20-alpine
 WORKDIR /usr/share/nginx/html/
 RUN rm -fr * .??*
-RUN sed -i '9i\        include /etc/nginx/conf.d/expires.inc;\n' /etc/nginx/conf.d/default.conf
 COPY expires.inc /etc/nginx/conf.d/expires.inc
+COPY default.conf /etc/nginx/conf.d/default.conf
 RUN chmod 0644 /etc/nginx/conf.d/expires.inc
 COPY --from=build /site/public .

@@ -1,11 +1,10 @@
 baseURL      = "https://ptrk.io/"
 languageCode = "en-us"
-title        = "Patrik Cyvocy"
+title        = "Patrik Cyvoct"
 theme        = "hello-friend-ng"
 paginate     = 10
 
 rssLimit     = 10
-copyright = "Patrik Cyvoct © 2021"
 
 pygmentsCodeFences = false
 
@@ -58,7 +57,7 @@ disableHugoGeneratorInject = false
     [params.footer]
     trademark = true
     rss = true
-    copyright = true
+    copyright = false
     author = true
 
     topText = []
