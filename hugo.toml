@@ -3,7 +3,7 @@ languageCode = 'en-us'
 title = "Patrik Cyvoct"
 theme = 'hello-friend-ng'
 
-# enableGitInfo = true
+enableGitInfo = true
 enableEmoji = true
 
 
@@ -11,14 +11,14 @@ enableEmoji = true
 posts = "/posts/:year/:month/:title/"
 
 [params]
-# gitUrl = "https://github.com/Sh4d1/blog/commit/"
+gitUrl = "https://github.com/Sh4d1/blog/commit/"
 
 dateform = "Jan 2, 2006"
 dateformShort = "Jan 2"
 dateformNum = "2006-01-02"
 dateformNumTime = "2006-01-02 15:04"
 
-homeSubtitle = "French Cloud enthusiast. Kubernetes, Rust, Go & C."
+homeSubtitle = "French Cloud enthusiast. Kubernetes, Rust, Go & Zig."
 
 disableReadOtherPosts = false
 
@@ -26,8 +26,8 @@ enableSharingButtons = true
 
 enableThemeToggle = true
 
-description = "French Cloud enthusiast. Kubernetes, Rust, Go & C."
-keywords = "kubernetes, blog, rust, containers, go, c"
+description = "French Cloud enthusiast. Kubernetes, Rust, Go & Zig."
+keywords = "kubernetes, blog, rust, containers, go, zig"
 images = [""]
 [params.author]
 name = "Patrik Cyvoct"
@@ -81,7 +81,7 @@ title = "Patrik Cyvoct"
 [[menu.main]]
 identifier = "about"
 name = "About"
-url = "https://resume.ptrk.io"
+url = "about/"
 [[menu.main]]
 identifier = "posts"
 name = "Posts"
